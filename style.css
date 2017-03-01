@@ -1,0 +1,118 @@
+body {
+  font-family: sans-serif;
+  background-color: #f9f9f1;
+  
+}
+
+ul {
+    position: relative;
+    list-style-type: none;
+    left: 14px;
+    top: 150px;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f9f9f1;
+}
+
+ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Change the link color on hover */
+ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+#header {
+  text-align: center;
+  line-height: 2em;
+  margin: auto;
+}
+
+#header code {
+  border-style: solid;
+  border-color: #666666;
+  border-radius: 0.4em;
+  padding: 0.7em 0.3em 0.7em 0.3em;
+  border-width: 2px;
+}
+
+#about {
+  text-align: justify;
+  width: 50%;
+  height: 94%;
+  position: relative;
+  margin: auto;
+  top: 50px;
+  border-style: solid;
+  border-color: #666666;
+  border-radius: 0.4em;
+  min-height: 300px;
+}
+
+#about button {
+  text-decoration: none;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+  background-color: #f9f9f1;
+  border: 3px solid black;
+  border-color: #666666;
+  border-bottom-color: white;
+  position: absolute;
+  top: -22px;
+  transition: .3s;
+}
+
+#about button:hover {
+  background-color: black;
+  color: white;
+}
+
+#about em {
+  font-style: normal;
+  margin: 12px;
+}
+
+#about div {
+  margin: 12px;
+}
+
+#about img {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: -1;
+}
+#links {
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  top: 10px;
+  width: 0%;
+  height: 76%;
+  background: #f9f9f1;
+  position: absolute;
+  z-index: 1;
+}
+
+#links a {
+    display: block;
+    color: #000;
+    padding: 8px 16px 8px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+     width: 26%;
+}
+
+#links a:hover {
+    background-color: black;
+    color: white;
+}
